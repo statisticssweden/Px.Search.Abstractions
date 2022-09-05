@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PX.Search.Abstractions
+namespace Px.Search.Abstractions
 {
     /// <summary>
     /// Describes status of a search attempt

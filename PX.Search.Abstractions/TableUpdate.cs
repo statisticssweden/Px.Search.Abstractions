@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace PX.Search.Abstractions
+namespace Px.Search.Abstractions
 {
     /// <summary>
     /// Holds information about a table update in a search index
