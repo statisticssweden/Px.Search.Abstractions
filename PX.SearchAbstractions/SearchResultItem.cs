@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Newtonsoft.Json;
 
-namespace PX.SearchAbstractions
+namespace PX.Search.Abstractions
 {
     /// <summary>
     /// Represents a table found by a search

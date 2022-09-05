@@ -1,4 +1,4 @@
-﻿namespace PX.SearchAbstractions
+﻿namespace PX.Search.Abstractions
 {
     public interface IPxSearchProvider
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace PX.SearchAbstractions
+namespace PX.Search.Abstractions
 {
     public interface ISearcher
     {

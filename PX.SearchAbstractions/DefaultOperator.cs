@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace PX.SearchAbstractions
+namespace PX.Search.Abstractions
 {
     /// <summary>
     /// The operator that will be used as default if more than one word is specified in a search query

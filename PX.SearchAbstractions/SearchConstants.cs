@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace PX.SearchAbstractions
+namespace PX.Search.Abstractions
 {
     public class SearchConstants
     {

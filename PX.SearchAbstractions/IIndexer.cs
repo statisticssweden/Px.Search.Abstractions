@@ -1,7 +1,7 @@
 ﻿using PCAxis.Paxiom;
 using System;
 
-namespace PX.SearchAbstractions
+namespace PX.Search.Abstractions
 {
     public interface IIndexer : IDisposable
     {

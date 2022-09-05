@@ -5,7 +5,7 @@ using System.Text;
 using PCAxis.Paxiom;
 using PCAxis.Paxiom.Extensions;
 
-namespace PX.SearchAbstractions
+namespace PX.Search.Abstractions
 {
     /// <summary>
     /// Paxiom extensions
