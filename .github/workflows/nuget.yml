@@ -18,18 +18,14 @@ jobs:
     - uses: microsoft/setup-msbuild@v1
 
     - uses: NuGet/setup-nuget@v1
-    
+
     - name: Restore NuGet packages
-      working-directory: ./Px.Search.Abstractions/
       run: nuget restore
-      
 
     - name: Build the application
-      working-directory: ./Px.Search.Abstractions/
       run: msbuild /p:Configuration=Release
 
-    - name: Deploy to Nuget
-      working-directory: ./Px.Search.Abstractions/
+    - name: Depoly to Nuget
       run: |
            $package = Get-ChildItem -Recurse -Filter *.nupkg
            nuget push $package $env:nuget_api_key -src https://nuget.org
